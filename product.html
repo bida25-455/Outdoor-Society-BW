@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Outdoor Society</title>
+        <link rel="stylesheet" href="style.css">
+        <script src="script.js" defer></script>
+    </head>
+
+    <body>
+        
+        <header>
+            <div class="logo">LOGO</div>
+            <nav>
+              <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="shop.html">Shop</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+            <div class="icons">
+                <a href="login.html"><i class="fas fa-user"></i></a>
+                <a href="cart.html"><i class="fas fa-shopping-cart"></i><span class="cart-count">0</span></a>
+            </div>
+        </header>
+
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+        <main>
+            <h1>Product Name</h1>
+            <figure>
+                <img src="product.jpg" alt="Product Image">
+                <figcaption>Product Image</figcaption>
+            </figure>
+            <p>Price: BWP 200.00</p>
+            <p>Description: N/A</p>
+
+            <label for="size">Size:</label>
+            <select id="size"><option>S</option><option>M</option><option>L</option></select>
+
+            <label for="color:">Color:</label>
+            <select id="color"><option>Red</option><option>Blue</option><option>Green</option></select>
+
+            <button onclick="addToCart()">Add to Cart</button>
+
+            <h2>Related Products</h2>
+            <div class="related">
+            <div class="card">Related Item</div>
+            <div class="card">Related Item</div>
+            <div class="card">Related Item</div>
+            </div>
+        </main>
+         <footer>
+            <p>&copy; 2026 Outdoor Society. All rights reserved.</p>
+        </footer>
+    </body>
+</html>
